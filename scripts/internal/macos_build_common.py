@@ -4,7 +4,7 @@ from subprocess import check_call
 from distutils import sysconfig
 import os
 
-DEFAULT_PY_ENVS = ["3.5", "3.6", "3.7"]
+DEFAULT_PY_ENVS = ["3.6"]
 
 SCRIPT_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
